@@ -1,0 +1,24 @@
+.pilha {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .pilha:hover {
+    transform: scale(1.1);
+  }
+  
+  .pilha rect {
+    fill-opacity: 0.8;
+    transition: fill-opacity 0.3s;
+  }
+  
+  .pilha:hover rect {
+    fill-opacity: 1;
+  }
+  
+  .pilha text {
+    font-size: 12px;
+    fill: #000;
+    text-anchor: middle;
+  }
+  
